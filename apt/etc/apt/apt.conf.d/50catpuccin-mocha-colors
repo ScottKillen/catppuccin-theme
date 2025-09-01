@@ -1,0 +1,12 @@
+// https://draculatheme.com/apt
+// Note: the control character at start of these strings is to support old
+// apt versions (< 2.9?); with newer ones we could write literal \x1B instead.
+APT::Color::Blue                   "[38;2;137;180;250m"; 
+APT::Color::Cyan                   "[38;2;137;220;235m";
+APT::Color::Green                  "[38;2;166;227;161m";
+APT::Color::Magenta                "[38;2;235;160;172m";
+APT::Color::Red                    "[38;2;243;139;168m";
+APT::Color::White                  "[38;2;205;214;244m";
+APT::Color::Yellow                 "[38;2;249;226;175m";
+DPkg::Progress-Fancy::Progress-Fg "%1B[38;2;30;30;46m";
+DPkg::Progress-Fancy::Progress-Bg "%1B[48;2;166;227;161m";
